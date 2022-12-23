@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(43, 71, 174);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+.circle{
+    /* background-color: rgb(6, 118, 216); */
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid white;
+    color: white;
+}
+.bottomcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#playpause{
+    width: 60px;
+}
+.data{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-color: white; */
+    width: 300px;
+    margin: 40px;
+    padding: 40px;
+    text-align: center;
+}
+.datacont{
+    display: flex;
+    justify-content:center
+}
+
